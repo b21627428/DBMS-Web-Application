@@ -1,0 +1,243 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color : #fff;
+	font-family: sans-serif;	
+}
+k{
+	border: 4px solid purple;
+	background-color : purple;
+	color: #fafad2;
+	font-weight: bold;
+}
+a1{
+	border: solid purple;
+	font-weight: bold;
+}
+.content{
+	margin-left:185px;
+	margin-top:60px;
+	margin-bottom:10px;
+}
+.top-nav-bar{
+	height: 57px;
+	top: 0;
+	width:100%;
+	position: fixed;
+	background: #fff;
+	margin-bottom: 20px;
+	border-bottom: 3px solid purple;
+	z-index: 2;
+}
+.logo{
+	height: 40px;
+	margin: 5px 10px; 
+	background-color: #fff;
+}
+.form-control{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid purple ;
+	border-radius: 20px;
+	box-shadow: none ;
+}
+
+.searc-box{
+	display: inline-flex;
+	width: 45%;
+}
+.fa-search{
+	color: #fff;
+}
+.menu-bar{
+	width: 40%;
+
+	float: right;
+}
+.menu-bar ul{
+	display: inline-flex;
+	float: right;
+}
+.menu-bar ul li{
+	height: 57px;
+	border-left: 1px solid #fff;
+	list-style-type: none;
+	padding: 3px 20px;
+	text-align: center;
+	background-color: purple;
+	cursor: pointer;
+}
+.menu-bar ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fafad2;
+	text-decoration: none;
+}
+.fa-shopping-basket{
+	margin-right: 5px;
+}
+
+/*---- side-menu----------*/
+.side-menu{
+	margin-top: 10px;
+	position:fixed;
+	padding-right: 5px;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: purple;
+	color: #fff;
+	border: 1px solid black;
+	margin-bottom:100px;
+}
+.side-menu ul{
+	margin-left: 10px;
+}
+.side-menu ul li{
+	list-style-type: none;
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.side-menu ul li a{
+	color: #fafad2;
+}
+.footer{
+	border-top: 3px solid #ddd; padding: 10px 0;
+	
+	
+}
+.login{
+	width : 470px;
+	font-weight: bold;
+	font-family: sans-serif;	
+}
+.log_column{
+	font-weight: bold;
+	border: solid purple;
+	margin-bottom : 1px;
+	background-color : purple;
+	color: #fafad2;
+}
+.log_select{
+	font-weight: bold;
+	border: solid purple;
+}
+.login-button{
+	font-weight: bold;
+	border: solid purple;
+	margin-left : 236px;
+	background-color : purple;
+	color: #fafad2;
+}
+.form-control{
+	color : purple;
+}
+.fa-sign-out-alt{
+	color: #fff;
+}
+.account-types{
+	display: inline;
+}
+.nav-tabs li {
+	margin-bottom: 5px;
+	margin-left: 10px;
+	background-color: purple;
+	padding: 5px;
+	border: 1px solid purple !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+}
+.nav-tabs li a{
+	color: #fafad2;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.overview{
+
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid purple !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+}
+.picture{
+	position: center;
+	width: 100%;
+}
+.info ul li{
+	margin-top:25px;
+	list-style-type:none;
+}
+.right-side{
+	margin-left:10px;	
+}
+
+.tab-content{
+
+	width: 100%;
+	margin-top: 7px;
+	
+	margin-left: 5px;
+	padding: 10px;
+	border: 1px solid purple !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+}
+.tab-content2{
+
+	width: 170%;
+	margin-top: 7px;
+
+	margin-left: 5px;
+	padding: 10px;
+	border: 1px solid purple !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+}
+.deneme{
+	padding-left:10px;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+	border: 1px solid purple !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+}
+.adp{
+	padding-left:10px;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+	border: 1px solid purple !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+}
+.fa-star{
+
+	margin-top:15px;
+}
+.mpb{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.acolumn{
+	width: 33%;
+}
+.bcolumn{
+	width: 40%;
+	margin-top: 0px;
+}
+.ccolumn{
+	width: 30%;
+	margin-top: 30px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+	background-color: purple !important;
+	color: #fafad2 !important;
+}
