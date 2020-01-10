@@ -24,7 +24,8 @@ if($_POST){
 			$uploadOk = 0;
 		}
 		if ($uploadOk == 0) {
-			echo '<script>alert("Sorry, your file was not uploaded.");location="'.$_SESSION['type'].'.php?page=profile&type=profile"</script>';
+			ECHO "Hİ";
+			#echo '<script>alert("Sorry, your file was not uploaded.");location="'.$_SESSION['type'].'.php?page=profile&type=profile"</script>';
 		}
 		else{
 			$sql="SELECT * FROM category WHERE name =  '".$_POST['category']."';";
@@ -45,7 +46,7 @@ if($_POST){
 					fclose($dosya);
 					echo '<script>alert("Product Successfully Added/Updated");location="seller.php?page=profile&type=add-product"</script>';
 				} else {
-					echo '<script>alert("Sorry, there was an error uploading your file.");location="'.$_GET['type'].'.php?page=profile&type=profile"</script>';
+					echo '<script>alert("Sorry, there was an error uploading your file.");location="'.$_SESSION['type'].'.php?page=profile&type=profile"</script>';
 				}
 
 			
