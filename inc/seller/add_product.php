@@ -24,8 +24,8 @@ if($_POST){
 			$uploadOk = 0;
 		}
 		if ($uploadOk == 0) {
-			ECHO "Hİ";
-			#echo '<script>alert("Sorry, your file was not uploaded.");location="'.$_SESSION['type'].'.php?page=profile&type=profile"</script>';
+			
+			echo '<script>alert("Sorry, your file was not uploaded.");location="'.$_SESSION['type'].'.php?page=profile&type=profile"</script>';
 		}
 		else{
 			$sql="SELECT * FROM category WHERE name =  '".$_POST['category']."';";
